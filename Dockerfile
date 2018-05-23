@@ -1,4 +1,4 @@
-FROM theano_cudnn5.1
+FROM blindgrandpa/theano_cudnn5.1
 
 RUN apt-get update && apt-get install -y \
     libjpeg-dev \
